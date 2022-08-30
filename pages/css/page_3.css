@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    scrollbar-width: none;
+    background-color: #a19e9e40;
+    height: 100%;
+}
+/* Paleta de colores #DB6B97 (rosa) #F2FFE9 (verde claro) #A6CF98 (verde medio) #557C55 (verde fuerte) */
+
+
+.header-container {
+    top: 0%;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    /* background: linear-gradient (45deg, #a19e9e 50%, black 50%); */
+    background-image: linear-gradient( #99007550 25%, transparent 100%);
+    /* padding: 2vmin; */
+    z-index: 50;
+}
+
+.box-menu { 
+    display: flex;
+    height: 72px;
+    list-style-type: none;
+}
+
+.button-emocionario {
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 2vw;
+    width: min-content;
+    height: min-content;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2.1em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #990075;    
+    text-shadow: -2.5px 2.5px #99007515;
+}
+
+.button-emocionario:hover {
+    transform: scale(1.05);
+    text-shadow: -2.5px 2.5px #99007515;
+}
+
+.bottoms-hdc {
+    display: inline-flex;
+    position: relative;
+    margin-left: auto;
+    top: 16px;
+    right: 15px;
+}
+
+.box-home,
+.box-diario,
+.box-contact{
+    width: min-content;
+    padding-right: 20px;
+}
+
+.button-foreword:hover {
+    transform: scale(1.02);
+}
+
+.box-home:hover,
+.box-diario:hover,
+.box-contact:hover{
+    transform:scale(1.14);
+    /* cursor:pointer; */
+}
+
+._L73R {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+._boxRT {
+    display: block;
+    width: 29%;
+    max-width: 27%;
+    min-width: 27%;
+}
+
+._boxRT2 {
+    height: max-content;
+    margin: 0px 5px;
+    background-image: linear-gradient(0deg, transparent 5%, #99007510 50%, transparent 95%);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.form_field {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10%;
+    
+}
+
+.form_label {
+    text-transform: uppercase;
+    font-family: 'Merriweather Sans', 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form_textarea {
+    width: 90%;
+    background: none;
+    font-family: 'Josefin Sans','Merriweather Sans', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #000090;
+    resize: none;
+    border: 1px solid #000090;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+._boxSubmits {
+    display: block;
+}
+
+._boxSubAG {
+    display: flex;
+    margin-bottom: auto;
+}
+
+._boxSubDI {
+    display: flex;
+    
+}
+
+.form_submit {
+    display: flex;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+._boxLFT {    
+    display: flex;
+    width: 100%;
+}
+
+
+.box-articles {
+    
+    width: 98%;
+    height: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wordskey{
+    display: block;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #990075;
+    text-decoration: none;
+    font-size: 31px;
+}
+
+.wordskey:hover {
+    transform: scale(1.1);
+    color: #990075;
+}
+
+[class^="art-"] { 
+    background-image: linear-gradient(0deg, transparent 5%, #99007510 50%, transparent 95%);
+    width: 100%;
+    margin: 0%;
+    text-align: center;
+}
+
+.title-art1 {
+    margin-top: auto;
+    padding-top: 30px;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #0000cc;
+
+}
+
+.text-art1 {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    /* text-align: center; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 27px;
+}
+
+.title-art2 {
+    margin-top: 60px;
+    font-size: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    color: #0000cc;
+}
+
+
+.text-art2 {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 4%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 27px;
+}
